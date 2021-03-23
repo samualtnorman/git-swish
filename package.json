@@ -1,10 +1,10 @@
 {
-	"name": "git-stash-checkout",
+	"name": "swish",
 	"version": "0.0.1",
-	"description": "stashes everything, checkouts branch, then pops stash made on branch if one is there",
+	"description": "switch and stash",
 	"main": "index.js",
 	"bin": {
-		"git-stash-checkout": "bin/git-stash-checkout.js"
+		"swish": "bin/swish.js"
 	},
 	"scripts": {
 		"build": "tsc",

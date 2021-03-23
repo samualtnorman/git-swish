@@ -2,7 +2,7 @@ import { runCommand } from "./lib"
 
 export async function gitBranchCheckout(branch: string) {
 	console.log(await runCommand(`git stash push -a`))
-	console.log(await runCommand(`git checkout ${branch}`))
+	console.log(await runCommand(`git switch ${branch}`))
 
 	let stashToPop: string | null = null
 
