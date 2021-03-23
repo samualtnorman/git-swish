@@ -1,6 +1,6 @@
 {
 	"name": "git-stash-checkout",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "stashes everything, checkouts branch, then pops stash made on branch if one is there",
 	"main": "index.js",
 	"bin": {
