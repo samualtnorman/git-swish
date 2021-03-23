@@ -1,6 +1,6 @@
 import { runCommand } from "./lib"
 
-export async function gitBranchCheckout(branch: string) {
+export async function swish(branch: string) {
 	console.log(await runCommand(`git stash push -a`))
 	console.log(await runCommand(`git switch ${branch}`))
 

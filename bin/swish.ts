@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { gitBranchCheckout } from ".."
+import { swish } from ".."
 
-gitBranchCheckout(process.argv[2])
+swish(process.argv[2])
