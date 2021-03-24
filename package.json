@@ -4,8 +4,6 @@
 	"description": "switch and stash",
 	"main": "index.js",
 	"files": [
-		"bin",
-		"index.js",
 		"lib.js"
 	],
 	"bin": {
