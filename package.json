@@ -1,6 +1,6 @@
 {
 	"name": "git-swish",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "switch and stash",
 	"main": "index.js",
 	"files": [
