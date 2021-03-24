@@ -1,6 +1,6 @@
 {
-	"name": "swish",
-	"version": "0.0.1",
+	"name": "git-swish",
+	"version": "0.0.0",
 	"description": "switch and stash",
 	"main": "index.js",
 	"bin": {
@@ -8,18 +8,18 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"watch": "tsc --watch"
+		"dev": "tsc --watch"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/samualtnorman/typescript-project"
+		"url": "https://github.com/samualtnorman/binmat-ai"
 	},
 	"author": "Samual Norman",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/samualtnorman/typescript-project/issues"
+		"url": "https://github.com/samualtnorman/binmat-ai/issues"
 	},
-	"homepage": "https://github.com/samualtnorman/typescript-project#readme",
+	"homepage": "https://github.com/samualtnorman/binmat-ai#readme",
 	"devDependencies": {
 		"@types/node": "^14.14.35",
 		"typescript": "^4.2.3"
