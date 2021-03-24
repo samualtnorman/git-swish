@@ -1,6 +1,6 @@
 # Git Swish
 
-![Build Test](/../../workflows/Build%20Test/badge.svg)
+[![Build](https://github.com/samualtnorman/git-swish/actions/workflows/build-test.yml/badge.svg)](https://github.com/samualtnorman/git-swish/actions/workflows/build-test.yml)
 
 Switch and stash. This package adds a command `swish` which stashes everything (untracked and ignored), switches branches, and then pops the last stash made on the branch.
 
