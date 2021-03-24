@@ -3,6 +3,11 @@
 	"version": "0.0.1",
 	"description": "switch and stash",
 	"main": "index.js",
+	"files": [
+		"bin",
+		"index.js",
+		"lib.js"
+	],
 	"bin": {
 		"swish": "bin/swish.js"
 	},
