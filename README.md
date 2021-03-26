@@ -8,13 +8,19 @@ This is useful if for example, you have 2 branches with different versions of pa
 
 ## Installation
 
-### Command
+You will need to install [NodeJS](https://nodejs.org/en/) first which will add a new command (`npm`) which is used to install this package.
 
-Install the command with `npm install git-swish --global`
+### Installing the Command
 
-### API
+This is probably what you are looking for.
 
-The API is also available by installing the package locally with `npm install git-swish`
+Install the command with `npm install git-swish --global`.
+
+### Using the API
+
+This is for developers.
+
+The API is also available by installing the package locally with `npm install git-swish` and importing with `require("git-swish")` in your javascript module. Your IDE will give your autocompletes for exports from this module (exports will be later documented).
 
 ## Usage
 
