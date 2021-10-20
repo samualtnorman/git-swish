@@ -11,7 +11,8 @@
 	},
 	"scripts": {
 		"build": "rollup --config",
-		"dev": "rollup --config --watch"
+		"dev": "rollup --config --watch",
+		"prepublishOnly": "npm run build"
 	},
 	"repository": {
 		"type": "git",
