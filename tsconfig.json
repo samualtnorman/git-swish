@@ -1,11 +1,9 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "commonjs",
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-		"lib": [ "ESNext" ]
-	}
+		"rootDir": ".",
+		"resolveJsonModule": true,
+		"composite": true
+	},
+	"files": [ "package.json" ],
+	"exclude": [ "src" ]
 }
